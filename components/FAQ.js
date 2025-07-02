@@ -7,22 +7,35 @@ import { useRef, useState } from "react";
 
 const faqList = [
   {
-    question: "What do I get exactly?",
-    answer: <div className="space-y-2 leading-relaxed">Loreum Ipseum</div>,
-  },
-  {
-    question: "Can I get a refund?",
+    question: "How can AI benefit my business?",
     answer: (
-      <p>
-        Yes! You can request a refund within 7 days of your purchase. Reach out
-        by email.
-      </p>
+      <div className="space-y-2 leading-relaxed">
+        AI can revolutionize your business by automating repetitive tasks, providing data-driven insights, enhancing customer experiences through personalized interactions, and optimizing operational efficiency. This leads to significant time and cost savings, allowing your team to focus on strategic initiatives.
+      </div>
     ),
   },
   {
-    question: "I have another question",
+    question: "How do you ensure the security and confidentiality of my data?",
     answer: (
-      <div className="space-y-2 leading-relaxed">Cool, contact us by email</div>
+      <div className="space-y-2 leading-relaxed">
+        Data security and confidentiality are our top priorities. We implement robust encryption protocols, adhere to industry best practices for data handling, and ensure all solutions comply with relevant data protection regulations. We work closely with you to establish secure data pipelines and access controls.
+      </div>
+    ),
+  },
+  {
+    question: "Can your AI solutions be customized to my specific needs?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">
+        Absolutely. We specialize in developing bespoke AI solutions tailored to your unique business challenges and objectives. Our process begins with a thorough understanding of your requirements, followed by the design and implementation of a solution that integrates seamlessly with your existing infrastructure.
+      </div>
+    ),
+  },
+  {
+    question: "What is the typical timeline for implementing an AI solution?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">
+        The timeline for implementing an AI solution varies depending on its complexity and scope. After an initial consultation and detailed analysis of your needs, we provide a clear project roadmap with estimated timelines. We strive for efficient delivery without compromising on quality or effectiveness.
+      </div>
     ),
   },
 ];

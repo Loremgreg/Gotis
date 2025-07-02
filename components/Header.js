@@ -10,7 +10,7 @@ import config from "@/config";
 
 const links = [
   {
-    href: "/#services",
+    href: "/#features",
     label: "Services",
   },
   {

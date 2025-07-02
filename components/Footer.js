@@ -31,7 +31,7 @@ const Footer = () => {
             </Link>
 
             <p className="mt-3 text-sm text-base-content/80">
-              Your AI Partner for Unstoppable Growth.
+              Your AI Partner
             </p>
             <p className="mt-3 text-sm text-base-content/60">
               Copyright © {new Date().getFullYear()} - All rights reserved
@@ -44,8 +44,8 @@ const Footer = () => {
               </div>
 
               <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
-                <p>123 AI Street, Suite 456</p>
-                <p>Automation City, AC 78901</p>
+                <p>Am Mosl 29</p>
+                <p>Murnau, 82418</p>
                 <p>hello@gotis.cc</p>
               </div>
             </div>

@@ -11,7 +11,7 @@ const CTA = () => {
             Ready to Transform Your Business with AI?
           </h2>
           <p className="text-lg opacity-80 mb-12 md:mb-16">
-            Contact us today for a personalized consultation, and discover how Gotis can develop a custom solution tailored to your needs.
+            Contact us today for a personalized consultation, and discover how Gotis can help you achieve your automation and AI goals.
           </p>
 
           <a href="mailto:gotis@gmail.com" className="btn btn-primary btn-wide">
